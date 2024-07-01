@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+.logo button{
+align-items: center;
+margin-left: 300px;
+border: none;
+width: 80px;
+height: 60px;
+font-size: 20px;
+background-color: rgb(242, 255, 0);
+border-radius: 10px;
+cursor: pointer;
+margin-top: 50px;
+margin-bottom: 100px;
+
+}
+.blok{
+display: flex;
+gap: 70px;
+
+}
+.blok .text{
+margin-top: 70px;
+}
+
+.footer{
+margin-top: 20px;
+margin-bottom: 30px;
+font-size: 20px;
+}
+
+.yonalish{
+display: flex;
+margin-top: 40px;
+justify-content: space-between;
+}
+
+.texts{
+background-color:rgb(111, 255, 0);
+border-radius: 10px;
+cursor: pointer;
+    
+}
+    
+.texts p{
+font-size: 20px;
+margin-left: 10px;
+color:rgb(157, 0, 255);
+margin-top: 10px;
+}
+
+.texts2{
+background-color:rgb(0, 204, 255);
+border-radius: 10px;
+cursor: pointer;
+    
+}
+    
+.texts2 p{
+font-size: 20px;
+margin-left: 10px;
+color:rgb(255, 0, 21);
+margin-top: 10px;
+    }
+.texts3{
+background-color:rgb(255, 0, 0);
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.texts3 p{
+font-size: 20px;
+margin-left: 10px;
+color:chartreuse;
+margin-top: 10px;
+}
